@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timothy's Portfolio</title>
+
+  <!-- Google fonts for my name -->
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Sriracha&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id="navbar">
+		<ul id="nav-settings">
+			<li><a class="nav-link" href="#welcome-section">About</a></li>
+    		<li><a class="nav-link" href="#projects">Personal Projects</a></li>
+    		<li><a class="nav-link" href="#project-fcc">freeCodeCamp Projects</a></li>
+    		<li><a class="nav-link" href="#section-contact">Contact</a></li>
+  		</ul>
+	</nav>
+
+	<main>
+  		<article id="welcome-section">
+    		<div id="uniform-top">
+          <!-- For decoration only -->
+        </div>
+        <div id="uniform-bottom">
+          <h1 id="name-tag"><div id="rotate-name"><span class="hidden" role="img" aria-label="Hello, my name is"> </span><span id="my-name">Timothy Chan</span></div></h1>
+          <img id="comm-badge" src="images/comm_badge.png" alt="Star Trek communication badge">
+        </div> 
+  		</article>
+
+  		<article id="projects" class="offset">
+    		<h2>Personal Projects</h2>
+    		<article class="cards">
+      			<article class="project-tile">
+        			Lorem Ipsum
+      			</article>
+    		</article>
+    
+    		<h2 id="project-fcc" class="offset">freeCodeCamp Projects</h2>
+    		<article class="cards">
+      			<article class="project-tile">
+        			<a class="card-link" href="https://codepen.io/timothy_chan/full/vYxXyNM" target="_blank" rel="noopener noreferrer">
+          				<img class="project-img-prev" src="images/product_landing.png" alt="Product Landing Page preview">
+          				<p>Product Landing Page</p>
+        			</a>
+      			</article>
+      
+      			<article class="project-tile">
+        			<a class="card-link" href="https://codepen.io/timothy_chan/full/gOmrOLK" target="_blank" rel="noopener noreferrer">
+          				<img class="project-img-prev" src="images/survey_form.png" alt="Survey Form preview">
+          				<p>Survey Form</p>
+        			</a>
+      			</article>
+      
+      			<article class="project-tile">
+        			<a class="card-link" href="https://codepen.io/timothy_chan/full/mdWXvRo" target="_blank" rel="noopener noreferrer">
+          				<img class="project-img-prev" src="images/tech_doc.png" alt="Technical Documentation Page preview">
+          				<p>Technical Documentation</p>
+        			</a>
+      			</article>
+      
+      			<article class="project-tile">
+        			<a class="card-link" href="https://codepen.io/timothy_chan/full/LYWGdXd" target="_blank" rel="noopener noreferrer">
+          				<img class="project-img-prev" src="images/tribute.png" alt="Tribute Page preview">
+          				<p>Tribute Page</p>
+        			</a>
+      			</article>
+    		</article>
+  		</article>
+
+  		<article id="section-contact">
+        <h2>Contact</h2>
+        <address id="contact">
+    		  <a class="contact-link" href="https://github.com/timothy-chan2" target="_blank" rel="noopener noreferrer"><img id="github-mark" src="images/github_mark.png" alt="My GitHub profile"><img id="github-logo" src="images/github_logo.png" alt="My GitHub profile"></a>
+    		  <a class="contact-link" href="https://www.linkedin.com/in/timothychan2" target="_blank" rel="noopener noreferrer"><img id="in-logo" src="images/in_logo.png" alt="My LinkedIn profile"></a>
+      		<div class="dropdown">
+            <span class="contact-word"><img id="email-icon" src="images/email_icon.png" alt="My e-mail is in the dropdown">E-mail</span>
+            <div class="dropdown-content">
+              <div class="same-line"><div id="e-mail">timothy.chan2@mail.mcgill.ca</div><button onclick="copy('e-mail')">Copy</button></div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <span class="contact-word"><img id="phone-icon" src="images/phone_icon.png" alt="My phone number is in the dropdown">Phone</span>
+            <div class="dropdown-content">
+              <div class="same-line"><div id="ph-num">(514) 432-7416</div><button onclick="copy('ph-num')">Copy</button></div>
+            </div>
+          </div>
+    		  <a id="profile-link" class="contact-link" href="https://www.freecodecamp.org/timothy_chan" target="_blank" rel="noopener noreferrer"><img id="fcc-logo" src="images/fcc_logo.jpg" alt="My freeCodeCamp profile"></a>
+  		  </address>
+      </article>
+	</main>
+	<footer>
+	 <!-- Source of e-mail and phone icon -->
+	 <div>E-mail icon from https://www.freepngimg.com/icon/64785-icons-envelope-computer-mail-message-email</div>
+	 <div>Phone icon from http://www.onlinewebfonts.com/icon</div>
+	</footer>
+	
+  <!-- Link to JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>
