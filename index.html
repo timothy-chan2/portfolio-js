@@ -42,12 +42,15 @@
   		<article id="welcome-section">
     			<div id="uniform-top"><!-- For decoration only --></div>
         		<div id="uniform-bottom">
-          			<h1 id="name-tag">
-					<div id="rotate-name">
-						<span role="img" aria-label="Hello, my name is"> </span> /* For visually impaired*/
-						<span id="my-name">Timothy Chan</span>
-					</div>
-				</h1>
+				<article id="name-tag">
+          				<h1>
+						<div id="rotate-word">
+							<span role="img" aria-label="Hello, my name is"> </span> /* For visually impaired*/
+							<span id="my-name">Timothy Chan</span>
+						</div>
+					</h1>
+					<p class="rotate-word">Aspiring front-end web developer</p>
+				</article>
           			<img id="comm-badge" src="images/comm_badge.png" alt="Star Trek communication badge">
         		</div> 
   		</article>
@@ -190,9 +193,20 @@
 		<!-- Reference -->
 	 	<div class="footer-spacing">This page is not affiliated with, endorsed by, or sponsored by CBS Studios Inc. or the "Star Trek" franchise. STAR TREK ® and its various marks are trademarks of CBS Studios Inc. The LCARS graphical user interface was designed by STAR TREK: THE NEXT GENERATION scenic art supervisor Michael Okuda.</div>
    		<div class="footer-spacing">LCARS font information from www.thelcars.com.</div>
+		<div class="footer-spacing">Star Trek comm badge & transporter audio from https://www.trekcore.com/audio.</div>
    		<div class="footer-spacing">E-mail icon from https://www.freepngimg.com/icon/64785-icons-envelope-computer-mail-message-email.</div>
 	 	<div class="footer-spacing">Phone icon from http://www.onlinewebfonts.com/icon.</div>
 	</footer>
+	
+	<!-- Audio -->
+  	<audio id="chirp">
+    		<source src="audio/tng_chirp_1.mp3" type="audio/mpeg">
+    		Your browser does not support the audio element.
+  	</audio>
+  	<audio id="beam">
+    		<source src="audio/voy_transporter_1.mp3" type="audio/mpeg">
+    		Your browser does not support the audio element.
+  	</audio>
 	
   	<!-- Link to JavaScript -->
 	<script src="script.js"></script>
